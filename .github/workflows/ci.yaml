@@ -16,6 +16,6 @@ jobs:
         with:
           host: ${{ secrets.AWS_FRONTEND }}
           key: ${{ secrets.AWS_KEY }}
-          username: ubuntu
+          username: ec2-user
           source: ./*
-          target: /home/ubuntu/
+          target: /home/ec2-user
